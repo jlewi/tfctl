@@ -3,8 +3,8 @@ package cmd
 import (
 	"fmt"
 	"github.com/go-logr/zapr"
-	"github.com/jlewi/goapp-template/pkg/application"
-	"github.com/jlewi/goapp-template/pkg/version"
+	"github.com/jlewi/tfctl/pkg/application"
+	"github.com/jlewi/tfctl/pkg/version"
 	"github.com/jlewi/monogo/helpers"
 	"github.com/spf13/cobra"
 	"go.uber.org/zap"

@@ -1,4 +1,4 @@
-module github.com/jlewi/goapp-template
+module github.com/jlewi/tfctl
 
 go 1.22.5
 
