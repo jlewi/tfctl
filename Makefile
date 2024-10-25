@@ -11,7 +11,7 @@ LDFLAGS := -s -w \
         -X 'github.com/jlewi/tfctl/pkg/version.Commit=$(GIT_SHA)'
 
 build: build-dir
-	CGO_ENABLED=0 go build -o .build/someapp -ldflags="$(LDFLAGS)" github.com/jlewi/tfctl
+	CGO_ENABLED=0 go build -o .build/tfctl -ldflags="$(LDFLAGS)" github.com/jlewi/tfctl
 
 build-dir:
 	mkdir -p .build
