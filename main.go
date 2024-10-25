@@ -2,8 +2,9 @@ package main
 
 import (
 	"fmt"
-	"github.com/jlewi/tfctl/cmd"
 	"os"
+
+	"github.com/jlewi/tfctl/cmd"
 )
 
 func main() {

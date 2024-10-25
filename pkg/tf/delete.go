@@ -2,10 +2,11 @@ package tf
 
 import (
 	"fmt"
+	"os"
+
 	"github.com/hashicorp/hcl/v2"
 	"github.com/hashicorp/hcl/v2/hclwrite"
 	"github.com/pkg/errors"
-	"os"
 )
 
 // DeleteResourceFromFile removes the resource with the given type and name from a Terraform file.

@@ -1,10 +1,11 @@
 package tf
 
 import (
-	"github.com/google/go-cmp/cmp"
 	"os"
 	"path/filepath"
 	"testing"
+
+	"github.com/google/go-cmp/cmp"
 )
 
 func TestDeleteResourceFromFile(t *testing.T) {

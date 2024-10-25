@@ -2,10 +2,11 @@ package cmd
 
 import (
 	"fmt"
+	"os"
+
 	"github.com/jlewi/tfctl/pkg/application"
 	"github.com/jlewi/tfctl/pkg/tf"
 	"github.com/spf13/cobra"
-	"os"
 )
 
 // NewDeleteCmd returns a command to delete the resource from the terraform file

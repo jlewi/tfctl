@@ -2,9 +2,10 @@ package cmd
 
 import (
 	"fmt"
+	"io"
+
 	"github.com/jlewi/tfctl/pkg/config"
 	"github.com/jlewi/tfctl/pkg/version"
-	"io"
 
 	"github.com/spf13/cobra"
 )
