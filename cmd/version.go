@@ -2,9 +2,10 @@ package cmd
 
 import (
 	"fmt"
-	"github.com/jlewi/goapp-template/pkg/config"
-	"github.com/jlewi/goapp-template/pkg/version"
 	"io"
+
+	"github.com/jlewi/tfctl/pkg/config"
+	"github.com/jlewi/tfctl/pkg/version"
 
 	"github.com/spf13/cobra"
 )

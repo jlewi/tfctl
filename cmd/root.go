@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/jlewi/goapp-template/pkg/config"
+	"github.com/jlewi/tfctl/pkg/config"
 	"github.com/spf13/cobra"
 )
 
@@ -22,7 +22,7 @@ func NewRootCmd() *cobra.Command {
 
 	rootCmd.AddCommand(NewVersionCmd(os.Stdout))
 	rootCmd.AddCommand(NewConfigCmd())
-	rootCmd.AddCommand(NewRunCmd())
+	rootCmd.AddCommand(NewDeleteCmd())
 
 	return rootCmd
 }
